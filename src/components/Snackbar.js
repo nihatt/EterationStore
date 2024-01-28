@@ -5,7 +5,7 @@ import { Snackbar } from 'react-native-paper';
 const Snack = ({ visible,onDismissSnackBar,message,onHide }) => {
   return (
     <Snackbar
-    duration={6000}
+    duration={1600}
     visible={visible}
     onDismiss={onHide}
     action={{
